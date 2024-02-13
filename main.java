@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 
-public class Main {
+public class main {
 
     public static void main(String[] args) {
 
@@ -19,7 +19,10 @@ public class Main {
         int sum = 0;
 
         // enhanced for loop (complete)
-
+        for(int i : nums)
+        {
+            sum = sum + nums[i];
+        }
 
         // display results
         System.out.println("Sum = " + sum);
